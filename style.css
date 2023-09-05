@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(45deg, red, blue, yellow, orange, pink, aqua);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: antiquewhite;
+    animation: sahil 2s linear infinite reverse ;
+    animation-timing-function: ease-in-out;
+    
+
+}
+
+.quotes {
+    font-family: cursive;
+    color: rgb(0, 106, 255);
+    /*  */
+}
+
+.parent {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.pic img {
+    width: 60vh;
+}
+
+@keyframes sahil {
+    0% {
+        background: linear-gradient(45deg, red, blue, yellow, orange, pink, aqua);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    25% {
+        background: linear-gradient(45deg, red, blue, yellow, orange, pink, aqua);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    50% {
+        background: linear-gradient(45deg, blue, green, red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    75% {
+        background: linear-gradient(45deg, pink, orange, yellow, blue, red, aqua);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    100% {
+        background: linear-gradient(45deg, red, blue, yellow, orange, pink, aqua);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
